@@ -1,9 +1,9 @@
 package profiles
 
 import (
-	"github.com/bogdanfinn/fhttp/http2"
-	tls "github.com/bogdanfinn/utls"
-	"github.com/bogdanfinn/utls/dicttls"
+	"github.com/absolute-algorithmic/fhttp/http2"
+	tls "github.com/absolute-algorithmic/utls"
+	"github.com/absolute-algorithmic/utls/dicttls"
 )
 
 var Firefox_133 = ClientProfile{

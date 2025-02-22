@@ -12,8 +12,8 @@ import (
 	"sync"
 	"unsafe"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls_client_cffi_src "github.com/bogdanfinn/tls-client/cffi_src"
+	http "github.com/absolute-algorithmic/fhttp"
+	tls_client_cffi_src "github.com/absolute-algorithmic/tls-client/cffi_src"
 	"github.com/google/uuid"
 )
 

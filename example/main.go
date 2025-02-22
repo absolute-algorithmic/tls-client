@@ -11,12 +11,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bogdanfinn/tls-client/profiles"
+	"github.com/absolute-algorithmic/tls-client/profiles"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/http2"
-	tls_client "github.com/bogdanfinn/tls-client"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/absolute-algorithmic/fhttp"
+	"github.com/absolute-algorithmic/fhttp/http2"
+	tls_client "github.com/absolute-algorithmic/tls-client"
+	tls "github.com/absolute-algorithmic/utls"
 )
 
 func main() {

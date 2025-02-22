@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/absolute-algorithmic/utls"
 )
 
 type CandidateCipherSuites struct {

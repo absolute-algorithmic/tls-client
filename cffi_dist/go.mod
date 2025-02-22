@@ -3,14 +3,14 @@ module tls_client_cffi
 go 1.22.0
 
 require (
-	github.com/bogdanfinn/fhttp v0.5.34
-	github.com/bogdanfinn/tls-client v1.8.0
+	github.com/absolute-algorithmic/fhttp v0.5.34
+	github.com/absolute-algorithmic/tls-client v1.8.0
 	github.com/google/uuid v1.6.0
 )
 
 require (
 	github.com/andybalholm/brotli v1.1.1 // indirect
-	github.com/bogdanfinn/utls v1.6.5 // indirect
+	github.com/absolute-algorithmic/utls v1.6.5 // indirect
 	github.com/cloudflare/circl v1.5.0 // indirect
 	github.com/klauspost/compress v1.17.11 // indirect
 	github.com/quic-go/quic-go v0.48.1 // indirect
@@ -21,4 +21,4 @@ require (
 	golang.org/x/text v0.20.0 // indirect
 )
 
-// replace github.com/bogdanfinn/tls-client => ../
+// replace github.com/absolute-algorithmic/tls-client => ../
